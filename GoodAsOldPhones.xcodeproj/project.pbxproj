@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F0D561C91D03A8420011076D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D561C81D03A8420011076D /* AppDelegate.swift */; };
-		F0D561CB1D03A8420011076D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D561CA1D03A8420011076D /* ViewController.swift */; };
 		F0D561CE1D03A8420011076D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D561CC1D03A8420011076D /* Main.storyboard */; };
 		F0D561D01D03A8420011076D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D561CF1D03A8420011076D /* Assets.xcassets */; };
 		F0D561D31D03A8420011076D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D561D11D03A8420011076D /* LaunchScreen.storyboard */; };
+		F0ED28371D045724008C6765 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ED28361D045724008C6765 /* ProductViewController.swift */; };
+		F0ED28391D045CD8008C6765 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ED28381D045CD8008C6765 /* ContactViewController.swift */; };
+		F0ED283B1D048F5F008C6765 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ED283A1D048F5F008C6765 /* ProductsTableViewController.swift */; };
+		F0ED28411D04A316008C6765 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ED28401D04A316008C6765 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F0D561C51D03A8420011076D /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D561C81D03A8420011076D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0D561CA1D03A8420011076D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0D561CD1D03A8420011076D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0D561CF1D03A8420011076D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0D561D21D03A8420011076D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0D561D41D03A8420011076D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0ED28361D045724008C6765 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		F0ED28381D045CD8008C6765 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		F0ED283A1D048F5F008C6765 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		F0ED28401D04A316008C6765 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				F0D561C81D03A8420011076D /* AppDelegate.swift */,
-				F0D561CA1D03A8420011076D /* ViewController.swift */,
 				F0D561CC1D03A8420011076D /* Main.storyboard */,
 				F0D561CF1D03A8420011076D /* Assets.xcassets */,
 				F0D561D11D03A8420011076D /* LaunchScreen.storyboard */,
 				F0D561D41D03A8420011076D /* Info.plist */,
+				F0ED28361D045724008C6765 /* ProductViewController.swift */,
+				F0ED28381D045CD8008C6765 /* ContactViewController.swift */,
+				F0ED283A1D048F5F008C6765 /* ProductsTableViewController.swift */,
+				F0ED28401D04A316008C6765 /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0D561CB1D03A8420011076D /* ViewController.swift in Sources */,
+				F0ED28371D045724008C6765 /* ProductViewController.swift in Sources */,
+				F0ED283B1D048F5F008C6765 /* ProductsTableViewController.swift in Sources */,
+				F0ED28411D04A316008C6765 /* Product.swift in Sources */,
 				F0D561C91D03A8420011076D /* AppDelegate.swift in Sources */,
+				F0ED28391D045CD8008C6765 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				F0D561D91D03A8420011076D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
